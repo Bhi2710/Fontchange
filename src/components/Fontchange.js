@@ -62,7 +62,8 @@ Vestibulum gravida laoreet orci, et varios arcu vestibulum vitae. Fusce congue, 
                 </div>
             </div>
             <div className='text_container'>
-              <textarea style={coloring} value={paragraph}>
+              <textarea style={coloring}>
+                  {paragraph}
               </textarea>
             </div>
         </div>
